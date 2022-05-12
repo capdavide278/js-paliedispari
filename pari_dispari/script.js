@@ -25,7 +25,7 @@ function pc_random(){
 let somma = numero_Human + pc_random();
 console.log(somma);
 
-//creo la function per il risultato e scoprire se è pari o dispari
+//creo la function per il risultato e scoprire se è pari o dispari e se go vinto o perso
 function risultato() {
     if(somma % 2 == 0 && scelta =="pari"){
         console.log("hai vinto!");
