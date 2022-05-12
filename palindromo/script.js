@@ -12,7 +12,7 @@ function palindroma(){
 
 	for(let i = 0, j = parola.length - 1; i < parola.length / 2; i++, j--){
 		if(parola[i]!=parola[j]){ 	
-			palindrome=0;              
+			palindrome=false;              
 			break;                     
 		}
 	}

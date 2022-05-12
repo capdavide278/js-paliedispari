@@ -27,14 +27,17 @@ console.log(somma);
 
 //creo la function per il risultato e scoprire se è pari o dispari
 function risultato() {
-    if(somma % 2 === 0 ){
-        console.log("Il risultato è pari");
-    }else{
-        console.log("Il risultato è dispari");
+    if(somma % 2 == 0 && scelta =="pari"){
+        console.log("hai vinto!");
+    }else if(somma % 2 !== 0 && scelta =="pari"){
+        console.log("hai perso!")
+    }else if(somma % 2 == 0 && scelta == "dispari"){
+        console.log("hai perso!");
+    }else if(somma % 2 !==0 && scelta == "dispari"){
+        console.log("hai vinto!");
     }
     return somma;
 }
 
 risultato();
 
-//dichiaro chi ha vinto
